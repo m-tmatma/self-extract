@@ -14,7 +14,7 @@ tail --lines=+$(($ENDLINE + 1)) $0 \
 ## リソースファイルは$DESTINATIONに格納されています。
 #####################################
 
-ls $DESTINATION
+find $DESTINATION
 
 rm -rf $DESTINATION
 
